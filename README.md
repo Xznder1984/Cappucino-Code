@@ -21,7 +21,7 @@ To use the `cap` or `capu` commands from anywhere on your computer:
    - Right-click "This PC" → Properties → Advanced System Settings
    - Click "Environment Variables"
    - Under "User variables", find "Path" and click "Edit"
-   - Click "New" and add: `D:\Albarr\Claude made stuff\Random-Stuff\Cappucino Code`
+   - Click "New" and add: `Path\To\Cappucino Code`
    - Click OK on everything
    - Restart your terminal/VS Code
 
