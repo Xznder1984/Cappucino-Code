@@ -1,0 +1,46 @@
+// Number Guessing Game - Advanced Example
+
+say "🎮 NUMBER GUESSING GAME 🎮"
+say "I'm thinking of a number between 1 and 100!"
+say ""
+
+// Generate random number
+secret = random 1 100
+tries = 0
+won = 0
+
+repeat 10 {
+    tries = tries + 1
+    
+    say "Attempt "
+    say tries
+    say " of 10"
+    
+    guess = ask "Enter your guess: "
+    
+    if guess == secret {
+        say "🎉 CORRECT! You won!"
+        won = 1
+    }
+    
+    if guess > secret {
+        say "📉 Too high!"
+    }
+    
+    if guess < secret {
+        say "📈 Too low!"
+    }
+    
+    if won == 1 {
+        say "You got it in "
+        say tries
+        say " tries!"
+    }
+    
+    say ""
+}
+
+if won == 0 {
+    say "😢 Game Over! The number was "
+    say secret
+}

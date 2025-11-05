@@ -1,0 +1,41 @@
+// Calculator with Menu
+
+clear
+say "🔢 SUPER CALCULATOR 🔢"
+say ""
+say "1. Add"
+say "2. Subtract"
+say "3. Multiply"
+say "4. Divide"
+say ""
+
+choice = ask "Choose operation (1-4): "
+
+num1 = ask "Enter first number: "
+num2 = ask "Enter second number: "
+
+say ""
+say "Result: "
+
+if choice == 1 {
+    result = num1 + num2
+    say result
+}
+
+if choice == 2 {
+    result = num1 - num2
+    say result
+}
+
+if choice == 3 {
+    result = num1 * num2
+    say result
+}
+
+if choice == 4 {
+    result = num1 / num2
+    say result
+}
+
+say ""
+say "Thanks for using the calculator!"

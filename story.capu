@@ -1,0 +1,44 @@
+// Story Generator - Cappuccino Code
+
+say "=== STORY GENERATOR ==="
+say "Let's create a fun story together!"
+say ""
+
+hero = ask "Enter a hero name: "
+place = ask "Enter a place: "
+item = ask "Enter a magical item: "
+villain = ask "Enter a villain name: "
+
+say ""
+say "=== YOUR STORY ==="
+say ""
+say "Once upon a time, there was a brave hero named "
+say hero
+say "."
+say ""
+say hero
+say " lived in "
+say place
+say ", a peaceful land."
+say ""
+say "One day, the evil "
+say villain
+say " appeared!"
+say ""
+say villain
+say " wanted to steal the magical "
+say item
+say "."
+say ""
+say "But "
+say hero
+say " used the power of the "
+say item
+say " to defeat "
+say villain
+say "!"
+say ""
+say place
+say " was saved!"
+say ""
+say "THE END"

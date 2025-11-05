@@ -1,0 +1,62 @@
+// Rock Paper Scissors Game
+
+clear
+say "✊✋✌️ ROCK PAPER SCISSORS ✌️✋✊"
+say ""
+say "1 = Rock"
+say "2 = Paper"
+say "3 = Scissors"
+say ""
+
+player = ask "Your choice (1-3): "
+computer = random 1 3
+
+say ""
+say "Computer chose: "
+say computer
+
+if player == 1 {
+    say "You chose: Rock"
+}
+
+if player == 2 {
+    say "You chose: Paper"
+}
+
+if player == 3 {
+    say "You chose: Scissors"
+}
+
+say ""
+
+// Check winner
+if player == computer {
+    say "😐 It's a TIE!"
+}
+
+if player == 1 {
+    if computer == 3 {
+        say "🎉 YOU WIN! Rock beats Scissors!"
+    }
+    if computer == 2 {
+        say "😢 YOU LOSE! Paper beats Rock!"
+    }
+}
+
+if player == 2 {
+    if computer == 1 {
+        say "🎉 YOU WIN! Paper beats Rock!"
+    }
+    if computer == 3 {
+        say "😢 YOU LOSE! Scissors beats Paper!"
+    }
+}
+
+if player == 3 {
+    if computer == 2 {
+        say "🎉 YOU WIN! Scissors beats Paper!"
+    }
+    if computer == 1 {
+        say "😢 YOU LOSE! Rock beats Scissors!"
+    }
+}

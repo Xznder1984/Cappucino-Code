@@ -1,0 +1,82 @@
+// Simple Quiz Game
+
+clear
+say "🧠 TRIVIA QUIZ 🧠"
+say ""
+
+score = 0
+
+// Question 1
+say "Question 1: What is 5 + 7?"
+say "1) 11"
+say "2) 12"
+say "3) 13"
+answer = ask "Your answer: "
+
+if answer == 2 {
+    say "✅ Correct!"
+    score = score + 1
+}
+
+if answer not 2 {
+    say "❌ Wrong! It's 12"
+}
+
+say ""
+
+// Question 2
+say "Question 2: What color is the sky?"
+say "1) Red"
+say "2) Blue"
+say "3) Green"
+answer = ask "Your answer: "
+
+if answer == 2 {
+    say "✅ Correct!"
+    score = score + 1
+}
+
+if answer not 2 {
+    say "❌ Wrong! It's blue"
+}
+
+say ""
+
+// Question 3
+say "Question 3: How many days in a week?"
+say "1) 5"
+say "2) 6"
+say "3) 7"
+answer = ask "Your answer: "
+
+if answer == 3 {
+    say "✅ Correct!"
+    score = score + 1
+}
+
+if answer not 3 {
+    say "❌ Wrong! It's 7"
+}
+
+say ""
+say "===================="
+say "FINAL SCORE: "
+say score
+say " out of 3"
+say "===================="
+
+if score == 3 {
+    say "🏆 PERFECT SCORE! You're amazing!"
+}
+
+if score == 2 {
+    say "😊 Great job! Almost perfect!"
+}
+
+if score == 1 {
+    say "😐 Good try! Practice more!"
+}
+
+if score == 0 {
+    say "😅 Don't worry, try again!"
+}

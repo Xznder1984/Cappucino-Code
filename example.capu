@@ -1,0 +1,35 @@
+// Cappuccino Code Example - Hello World
+// This is a comment!
+
+say "Hello, World!"
+say "Welcome to Cappuccino Code!"
+
+// Variables
+name = "Alice"
+age = 12
+score = 100
+
+say "Name: "
+say name
+say "Age: "
+say age
+
+// Math
+x = 5
+y = 10
+result = x + y
+say "5 + 10 = "
+say result
+
+// Get user input
+say "What's your name?"
+username = ask "Enter your name: "
+say "Hello, "
+say username
+
+// More math
+a = 20
+b = 5
+say a * b
+say a - b
+say a / b

@@ -1,0 +1,25 @@
+// Multiplication Table Generator
+
+clear
+say "📊 MULTIPLICATION TABLE 📊"
+say ""
+
+num = ask "Enter a number: "
+say ""
+
+say "Multiplication table for "
+say num
+say ":"
+say ""
+
+counter = 1
+
+repeat 10 {
+    result = num * counter
+    say num
+    say " x "
+    say counter
+    say " = "
+    say result
+    counter = counter + 1
+}

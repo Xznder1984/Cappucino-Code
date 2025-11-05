@@ -1,0 +1,19 @@
+// Countdown Timer Example
+
+clear
+say "⏰ COUNTDOWN TIMER ⏰"
+say ""
+
+seconds = ask "How many seconds? "
+
+say ""
+say "Starting countdown..."
+say ""
+
+repeat seconds {
+    say seconds
+    wait 1
+    seconds = seconds - 1
+}
+
+say "🎉 TIME'S UP! 🎉"

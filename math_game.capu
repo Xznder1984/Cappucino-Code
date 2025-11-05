@@ -1,0 +1,26 @@
+// Fun Math Game in Cappuccino Code!
+
+say "=== MATH CHALLENGE ==="
+say "Let's test your math skills!"
+say ""
+
+// Problem 1
+say "Problem 1: What is 7 + 8?"
+answer1 = ask "Your answer: "
+say ""
+
+// Problem 2
+say "Problem 2: What is 12 * 3?"
+answer2 = ask "Your answer: "
+say ""
+
+// Problem 3
+say "Problem 3: What is 20 - 5?"
+answer3 = ask "Your answer: "
+say ""
+
+say "=== RESULTS ==="
+say "Thanks for playing!"
+say "Problem 1 answer was: 15"
+say "Problem 2 answer was: 36"
+say "Problem 3 answer was: 15"
